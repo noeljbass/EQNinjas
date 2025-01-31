@@ -9,6 +9,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Edo'; 
+  src: url('../fonts/edo-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/edo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/edo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/edo.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #555555;
@@ -30,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Edo', sans-serif !important;
 }
 
 /*--------------------------------------------------------------
@@ -94,6 +104,7 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+  font-family: 'Edo', sans-serif;
 }
 
 #header .logo h1 a,
@@ -382,6 +393,7 @@ h6 {
   font-weight: 500;
   line-height: 56px;
   color: #fff;
+  font-family: 'Edo', sans-serif;
 }
 
 #hero h2 {
@@ -422,6 +434,7 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    font-family: 'Edo', sans-serif;
   }
 
   #hero h2 {
